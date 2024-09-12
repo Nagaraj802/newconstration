@@ -1,0 +1,646 @@
+.nag {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nag .fa-solid {
+    margin-right: 15px;
+    color: blue;
+    font-size: 30px;
+}
+
+.nag1 h3 {
+    margin: 10px 0 5px 0;
+    font-weight: 700;
+}
+
+.nag1 h6 {
+    font-size: 13px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.nag1 p {
+    font-size: 10px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.nag1 span {
+    color: deepskyblue;
+}
+
+@media (max-width: 768px) {
+    .nag {
+        justify-content: center;
+    }
+    .nag1 h6, .nag1 p {
+        text-align: center;
+    }
+    .zxcv{
+        margin-right: 40px;
+    }
+    
+}
+
+/* 1st section completed */
+
+/* Navbar links padding */
+.navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white; /* Ensures links are white */
+}
+
+/* Social icons styling */
+.navbar-nav .nav-link i {
+    color: white;
+    font-size: 20px;
+}
+
+/* Optional: Adjust spacing between social icons */
+.navbar-nav .nav-item + .nav-item .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+    .navbar-nav .nav-link i {
+        font-size: 18px;
+    }
+}
+
+/* section completed */
+
+.hero img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.srinivas {
+    background-color: rgb(233, 227, 219);
+    padding: 60px 0;
+}
+
+.bag h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-family: 'Cursive', sans-serif;
+    font-size: 2rem;
+}
+
+.bag h6 {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.bag .light {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.bag .light:hover {
+    background-color: #444;
+}
+
+@media (max-width: 768px) {
+    .bag h1 {
+        font-size: 1.5rem;
+    }
+    
+    .bag h6 {
+        font-size: 0.9rem;
+    }
+
+    .hero img {
+        max-width: 100%;
+        
+    }
+}
+
+/* third section completed */
+
+.tiger {
+    background-color: rgb(51, 157, 192);
+    padding: 40px 0;
+}
+
+.tiger1 {
+    background-color: #7de57d;
+    padding: 40px 0;
+}
+
+.tiger h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 16px;
+}
+
+.rag p {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mam1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.wonder, .wonder1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+}
+
+.wonder:hover, .wonder1:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .mam1 {
+        font-size: 24px;
+    }
+
+    .tiger h3 {
+        font-size: 18px;
+    }
+
+    .rag p {
+        font-size: 12px;
+    }
+}
+
+/* fourth section completed */
+
+.ring {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.ring h1 {
+    font-size: 36px;
+    color: darkcyan;
+    margin-bottom: 20px;
+}
+
+.ring p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 40px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.medican {
+    text-align: center;
+    font-size: 30px;
+    color: darkcyan;
+    position: relative;
+}
+
+.medican i {
+    background-color: white;
+    padding: 9px;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -16px;
+    font-size: 39px;
+}
+
+.red {
+    text-align: center;
+    padding-top: 30px;
+    margin: 20px;
+    /* background-color: white; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* transition: transform 0.3s ease; */
+}
+
+.red h3 {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.red p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 10px 20px;
+}
+
+.red:hover {
+    transform: scale(1.05);
+}
+
+.zxcv {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.doc img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .red {
+        margin: 15px;
+    }
+
+    .ring p {
+        width: 90%;
+    }
+
+    /* .medican i {
+        margin-top: 10px;
+    } */
+}
+
+
+/* 5th completed */
+
+
+
+.tiger {
+    background-color: rgb(42, 85, 101);
+    padding: 40px 0;
+}
+
+.mam {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.tiger h4 {
+    font-size: 38px;
+    color: white;
+    margin: 20px 0 10px;
+}
+
+.rag p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.mango, .mango1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.mango:hover, .mango1:hover {
+    transform: scale(1.05);
+}
+
+.mango hr, .mango1 hr {
+    border-color: white;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.mango1 .mam i, .mango .mam i {
+    color: darkcyan;
+}
+
+@media (max-width: 768px) {
+    .mam {
+        font-size: 35px;
+    }
+    
+    .tiger h4 {
+        font-size: 32px;
+    }
+
+    .rag p {
+        font-size: 12px;
+    }
+}
+
+
+/* 6th completed */
+
+.king img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.queen {
+    background-color: darkgrey;
+    padding: 60px 0;
+}
+
+.phone, .phone3 {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.phone {
+    background-color: blue;
+    color: white;
+}
+
+.phone3 {
+    background-color: gainsboro;
+    color: black;
+}
+
+.phone i, .phone3 i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.phone3 i {
+    color: aqua;
+}
+
+.phone h6, .phone3 h6 {
+    font-size: 16px;
+}
+
+.queen .cell {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+}
+
+.week {
+    padding: 60px 0;
+    background-color: aquamarine;
+}
+
+.ping {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ping p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ping1 img, .pin1 img, .p1 img, .pmd img, .ping2 img, .p2 img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .king img {
+        height: 250px;
+    }
+
+    .queen .cell {
+        font-size: 15px;
+    }
+}
+
+
+
+/* section completed */
+
+.team-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.team-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.team-section p {
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    clip-path: circle();
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.team-member p {
+    color: #888;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    font-size: 1.2em;
+    color: #555;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .team-member img {
+        height: 180px;
+    }
+
+    .team-member h3 {
+        font-size: 1.1em;
+    }
+
+    .team-member p {
+        font-size: 0.9em;
+    }
+}
+
+
+
+/* section complted */
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.this {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.this h5 {
+    font-weight: 600;
+}
+
+.roket {
+    background-color: darkgray;
+    padding: 16px;
+}
+
+.xerox {
+    margin-left: 4%;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.raj {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.raj i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.raj p {
+    margin: 0;
+}
+
+.raj1 li,
+.raj2 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.lambda {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+
+.red i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+}
+
+.rom {
+    background-color: chocolate;
+    color: white;
+}
+
+.rom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+}
+.kill{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.some{
+    padding: 20px 0px;
+
+}
+.some i{
+    border: 1px white;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+}
